@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "sum.h": "c",
+    "subtraction.h": "c"
+  }
+}
