@@ -1,0 +1,25 @@
+
+###################### USE Jlink SWD: ##########################
+
+device STM32F103R8
+SelectInterface SWD
+speed 4000
+r
+erase
+loadfile ‪C:\Users\Dell\Videos\RUN2.hex 0x80000000
+r
+g
+exit
+
+#################### USE Jlink JTAG: #######################
+
+device STM32F103R8
+SelectInterface JTAG
+JTAGConf -1,-1
+speed 4000
+r
+erase
+loadfile ‪C:\Users\Dell\Videos\RUN2.hex 0x80000000
+r
+g
+exit

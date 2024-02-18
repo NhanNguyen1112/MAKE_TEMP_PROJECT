@@ -8,7 +8,7 @@ include ./User/MakeConfig.mak
 INC_FILES := $(foreach INC_DIRS,$(INC_DIRS),-I$(wildcard $(INC_DIRS)))
 SRC_FILES := $(foreach SRC_DIRS,$(SRC_DIRS),$(wildcard $(SRC_DIRS)/*))
 
-#INC_FILES := $(wildcard $(INC_DIRS)/*)
+#INC_FILES := $(wildcard $(INC_DIRS)/*) 
 #FILE_NAME := $(notdir $(INC_FILES))
 
 OBJ_FILES := $(notdir $(SRC_FILES))

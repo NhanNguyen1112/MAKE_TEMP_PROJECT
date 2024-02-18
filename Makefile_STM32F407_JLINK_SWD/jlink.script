@@ -1,0 +1,9 @@
+device STM32F407VG
+SelectInterface SWD
+speed 4000
+r
+erase
+loadfile ./output/main.hex 0x08000000
+r
+g
+exit

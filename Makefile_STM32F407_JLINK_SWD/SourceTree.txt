@@ -1,0 +1,56 @@
+
+MAKEFILE_STM32F407_JLINK_SWD__
+                              |
+                              |__driver__
+                              |         |__GPIO__
+                              |         |       |__include
+                              |         |       |
+                              |         |       |__source
+                              |         |
+                              |         |__uart__
+                              |         |        |__include
+                              |         |        |
+                              |         |        |__source
+                              |         |
+                              |         |__stm32f407xx.h
+                              |
+                              |__linker__
+                              |         |__stm32f407_linker.ld
+                              |
+                              |__output__
+                              |         |
+                              |         |__HEX file
+                              |         |
+                              |         |__Binary file 
+                              |         |
+                              |         |__Object file 
+                              |         |
+                              |         |__elf file 
+                              |         |
+                              |         |__Memory map file
+                              |
+                              |
+                              |__startup__
+                              |          |__stm32f407_startup.c
+                              |
+                              |
+                              |__tool__
+                              |       |__ST-LINKutility
+                              |
+                              |
+                              |__user__
+                              |       |__include 
+                              |       |
+                              |       |__source
+                              |
+                              |
+                              |__Makerfile
+                              |
+                              |
+                              |__UserConfig.mk
+                              |
+                              |
+                              |__SourceTree.txt
+                              |
+                              |__jlink.script
+
